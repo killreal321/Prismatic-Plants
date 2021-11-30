@@ -1,0 +1,347 @@
+html{
+}
+body{
+    height: 100%;
+    /* max-width: 1440px; */
+    font-family: Roboto;
+    font-size: 19px;
+    line-height: 26px;
+    color: #FFFFFF;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    position: relative;
+}
+.discount{
+    height: 32px;
+    text-align: center;
+    background: #332B5B;
+    font-size: 14px;
+}
+.nav-panel{
+    height: 83px;
+    background-color: #1E4844;;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 73px;
+    padding-right: 43px;
+    align-items: center;
+}
+.nav-element{
+    margin-right: 32px;
+    font-size: 16px;
+    line-height: 21px;
+}
+ul.nav-panel li:last-child {
+    margin-right: 0;
+}
+.last-element{
+    margin-left: auto;;
+}
+.img-title{
+    position: absolute;
+    left: 46%;
+    top: 48px;
+}
+.main-back{
+    width: 100%;
+    background-image: url("../img/фон\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin-top: -115px;
+}
+h1{
+    font-size: 42px;
+    line-height: 47px;
+}
+.title-text{
+    padding: 218px 0px 0px 65px;
+}
+.title-descr{
+    line-height: 25px;
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+.button-main{
+    font-size: 16px;
+    line-height: 21px;
+    padding: 12px 42px;
+    border: 2px solid #FFFFFF;
+    border-radius: 0px 50px 50px 0px;
+}
+.vector{
+    width: 100%;
+    margin-top: 123px;
+    text-align: center;
+    padding-left: -65px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 24px 100px 34px 100px;
+    justify-content: space-around;
+    background-color: #C2D8CC;;
+}
+.two-blocks{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    width: 100%;
+}
+.num2{
+    font-size: 23px;
+    line-height: 25px;
+}
+.num3{
+    margin-bottom: 61px;
+}
+.block1{
+    flex: 1 1 50%;
+    background-image: url("../img/b1.png");
+    padding-top: 52px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.block2{
+    flex: 1 1 50%;
+    background-image: url("../img/b2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+}
+.info-block{
+    padding: 500px 0px 64px 64px;
+}
+.button-block{
+    padding: 9px 79px 11px 79px;
+}
+.block-loveit{
+    text-align: center;
+    background: #1E4844;
+    padding-top: 65px;
+    padding-bottom: 59px;
+}
+.smth-descr{
+    height: 800px;
+    background: #C15244;
+    padding: 263px 0px 0px 65px;
+    position: relative;
+}
+.text-descr p{
+    position: relative;
+    margin-top: 17px;
+    z-index: 2;
+}
+#img-descr{
+    position: absolute;
+    top: 65px;
+    right: 0px;
+    z-index: 1;
+}
+.aprroach{
+    padding-top: 65px;
+    background: #9B9AC7;
+}
+.aproach-block{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.button-aprr{
+    width: 526px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-left: 170px; */
+}
+.button-click-aprr{
+    width: 526px;
+    padding: 19px 0px 20px 0px;
+    border: 1px solid #FFFFFF;
+    text-align: center;
+}
+.aproach-block{
+    display: flex;
+}
+.descrip-aprr{
+    text-align: center;
+}
+.hemp{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    color: #FAE9D6;
+}
+.img-hemp{
+    flex: 0 0 50%;
+    background-image: url(../img/fon-hemp.png); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    width: 100%; 
+    height: 750px; 
+}
+.descr-block{
+    box-sizing: border-box;
+    flex: 0 0 50%; 
+    background: #332B5B;  
+    padding-left: 65px;
+}
+.hemp-flex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.hemp-flex-text{
+    flex: 0 0 50%;  
+}
+.flex-text-space{
+    margin-bottom: 21px;
+}
+.button-hemp{
+    color: #FAE9D6;
+    border-color: #FAE9D6;
+}
+.prismatic-press{
+    background-color: #FAE9D6;
+}
+.pics-icon{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+}
+.pics-icon-item:not(:first-child){
+   display: flex;
+   height: 244px;
+   width: 53px;
+   justify-content: center;
+   align-items:flex-start;
+   /* padding-bottom: 40px; */
+}
+.pics-icon-item:first-child{
+    display: flex;
+    flex-direction: column;
+    height: 224px;
+    width: 200px;
+    align-items: center;
+    justify-content: flex-end;
+    font-size: 13px;
+    line-height: 17px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color: #1E4844;
+}
+.pics-icon-item{
+    border: 1px solid #1E4844;
+    margin: 0 6px;
+}
+.rectangle{
+    height: 32px;
+    border: 1px solid #1E4844;
+    margin: -1px 65px;
+    background: #FAE9D6;
+    margin-bottom: 33px;
+}
+.pics-bottom{
+    position: relative;
+    padding-bottom: 42px;
+}
+.frbes{
+    color: #1E4844;
+    font-size: 16px;
+    line-height: 21px;
+    position: absolute;
+    top: 5%;
+    left: 48.1%;
+}
+footer{
+    display: flex;
+}
+.footer__block1{
+    font-size: 23px;
+    line-height: 30px;
+    color: #1E4844;
+    padding: 65px 0 0 65px;
+    background: #C2D8CC;
+    flex: 0 0 33.333%;
+}
+.link__color{
+    color: #1E4844;
+}
+.block1__link{
+    margin-bottom: 7px;
+}
+.link__cards{
+    margin: 32px 0 71px 0px;
+}
+.footer__block2{
+    flex: 0 0 67.333%;
+    color: #C2D8CC;
+}
+.footer__block2-1{
+    background: #1E4844;
+    padding: 65px 0 0 65px;
+    position: relative;
+}
+.subtitle_footer{
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 27px;
+} 
+.form{
+    font-size: 16px;
+    line-height: 21px;
+    padding-bottom: 195px;
+}
+.input__footer{
+    color: #FFFFFF;
+    padding-bottom: 7.5px;
+    padding-right: 60px;
+    margin-right: 32px;
+    background: #1E4844;
+    border: none;
+    border-bottom: 2px solid #FFFFFF;
+}
+.button__foot{
+    background: #1E4844;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+    padding: 8px 57px;
+}
+.footer__block2-2{
+    display: flex;
+    flex-direction: row;
+    padding: 31px 65px 70px;
+    background: #FAE9D6;
+    color: #1E4844;
+    font-size: 14px;
+    line-height: 19px;
+}
+#vector__footer{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+}
+
